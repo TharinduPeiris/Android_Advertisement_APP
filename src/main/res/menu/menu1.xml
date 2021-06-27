@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/createadd"
+        android:enabled="true"
+        android:icon="@drawable/post_ads"
+        android:title="CREATE ADS"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/ads_listw"
+        android:enabled="true"
+        android:icon="@drawable/ads"
+        android:title="ADS LIST"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/logout"
+        android:enabled="true"
+        android:icon="@drawable/log12"
+        android:title="LOGOUT"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/updateadd"
+        android:enabled="true"
+        android:icon="@drawable/im"
+        android:title="Update Ad"
+        app:showAsAction="ifRoom" />
+</menu>

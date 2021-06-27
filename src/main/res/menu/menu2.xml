@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/createadd"
+        android:enabled="true"
+        android:icon="@drawable/post_ads"
+        android:title="CREATE ADS"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/ads_listw"
+        android:enabled="true"
+        android:icon="@drawable/ads"
+        android:title="ADS LIST"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/aboutw"
+        android:enabled="true"
+        android:icon="@drawable/about4"
+        android:title="ABOUT"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/showAd"
+        android:enabled="true"
+        android:icon="@drawable/icon01"
+        android:title="Show Ad"
+        app:showAsAction="ifRoom" />
+</menu>
